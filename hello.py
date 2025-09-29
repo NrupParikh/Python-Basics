@@ -237,3 +237,6 @@ Age: 30
 2 Two 
 3 Three 
 """
+
+
+# ========= API Calling and show data in table format
