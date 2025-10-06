@@ -177,7 +177,7 @@ def generate_html_report(
 
 # =============== Main Execution ===============
 if __name__ == "__main__":
-    symbol = "OLAELEC.NS"  # Ola Electric stock symbol on NSE
+    symbol = "TATAMOTORS.NS"  # Ola Electric stock symbol on NSE
     data = fetch_stock_data(symbol, period="5y")
     data = calculate_moving_averages(data)
     trend = determin_trend(data)
